@@ -1,0 +1,70 @@
+*{
+    transition: all 0.5s;
+}
+.home{
+    background-image: url(img/29Z_2105.w026.n002.416B.p1.416.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    overflow: auto;
+
+
+}
+
+
+
+.search{
+    width: 50%;
+    margin: auto;
+    height: 50px;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 25px;
+
+   
+}
+.search:hover{
+    box-shadow: 0px 10px 20px rgb(24, 24, 24);
+}
+.search input{
+    background-color: transparent;
+    border: none;
+    outline: none   ;
+    
+}
+
+.search-icon{
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    
+}
+
+.time{
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    width: 25%;
+}
+.location{
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 10px; 
+    width: 70%;
+}
+#weatherCard{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .7);
+}
+#weatherCardTwo{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .7); 
+}
+
+.dayAndDate{
+    border-radius: 10px;  
+}
+.cardFooter{
+    border-radius: 10px;   
+}
